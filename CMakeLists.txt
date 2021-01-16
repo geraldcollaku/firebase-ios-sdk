@@ -252,6 +252,10 @@ target_include_directories(
 )
 
 
+# GoogleUtilities
+add_external_subdirectory(GoogleUtilities)
+
+
 # XCTest
 if(APPLE)
   find_package(XCTest)
